@@ -87,3 +87,8 @@ footer {
     font-size: 14px;
     color: #555;
 }
+
+/* UL */
+ul {
+    padding-left: 40px;
+}
