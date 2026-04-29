@@ -1,21 +1,21 @@
 body {
     margin: 0;
     font-family: "Times New Roman", Times, serif;
-    background-color: #fdfdfd;
+    background-color: #f7f5f2; /* soft paper tone */
     color: #111;
 }
 
 /* HEADER */
 header {
     text-align: center;
-    padding: 30px 20px;
-    border-bottom: 2px solid #111;
+    padding: 35px 20px;
+    border-bottom: 2px solid #222;
+    background-color: #ffffff;
 }
 
 header h1 {
     margin: 0;
     font-size: 36px;
-    letter-spacing: 1px;
 }
 
 /* NAV */
@@ -39,7 +39,7 @@ main {
     max-width: 800px;
     margin: 40px auto;
     padding: 30px;
-    background-color: white;
+    background-color: #ffffff;
     border: 1px solid #ddd;
 }
 
@@ -51,14 +51,15 @@ section {
 
 /* IMAGE */
 .hero img {
-    max-width: 250px;
+    max-width: 240px;
     display: block;
     margin: 15px auto;
+    border-radius: 6px;
 }
 
 /* HEADINGS */
 h2 {
-    border-bottom: 1px solid #111;
+    border-bottom: 1px solid #222;
     padding-bottom: 5px;
     font-size: 24px;
 }
@@ -70,11 +71,20 @@ p {
     text-align: justify;
 }
 
+/* OPTIONAL CARD (if you use it) */
+.card {
+    background-color: #f3efe9;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 4px solid #444;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
     margin-top: 40px;
     padding: 20px;
-    border-top: 1px solid #111;
+    border-top: 1px solid #222;
     font-size: 14px;
+    color: #555;
 }
