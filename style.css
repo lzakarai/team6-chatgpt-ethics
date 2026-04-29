@@ -9,19 +9,13 @@ body {
 header {
     text-align: center;
     padding: 30px 20px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #111;
 }
 
 header h1 {
     margin: 0;
     font-size: 36px;
     letter-spacing: 1px;
-}
-
-.subtitle {
-    margin-top: 5px;
-    font-size: 16px;
-    color: #555;
 }
 
 /* NAV */
@@ -31,7 +25,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: #111;
     margin: 0 12px;
     font-weight: bold;
 }
@@ -44,7 +38,9 @@ nav a:hover {
 main {
     max-width: 800px;
     margin: 40px auto;
-    padding: 0 20px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
 }
 
 /* SECTIONS */
@@ -53,19 +49,16 @@ section {
     margin-bottom: 30px;
 }
 
-/* HERO IMAGE */
-.hero {
-    text-align: center;
-}
-
+/* IMAGE */
 .hero img {
     max-width: 250px;
-    margin-top: 15px;
+    display: block;
+    margin: 15px auto;
 }
 
 /* HEADINGS */
 h2 {
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #111;
     padding-bottom: 5px;
     font-size: 24px;
 }
@@ -82,6 +75,6 @@ footer {
     text-align: center;
     margin-top: 40px;
     padding: 20px;
-    border-top: 1px solid #000;
+    border-top: 1px solid #111;
     font-size: 14px;
 }
