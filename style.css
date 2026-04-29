@@ -91,4 +91,5 @@ footer {
 /* UL */
 ul {
     padding-left: 40px;
+    text-align: justify;
 }
