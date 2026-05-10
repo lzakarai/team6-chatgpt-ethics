@@ -145,3 +145,12 @@ footer {
         text-align: left;
     }
 }
+
+/* Fixed Ethical Analysis navigation links turning blue */
+nav a,
+nav a:visited,
+nav a:active,
+nav a:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
